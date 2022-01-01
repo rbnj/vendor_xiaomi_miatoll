@@ -397,6 +397,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/novatek_ts_tianma_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_fw.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/novatek_ts_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_mp.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
+    vendor/xiaomi/miatoll/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
+    vendor/xiaomi/miatoll/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.0.so \
