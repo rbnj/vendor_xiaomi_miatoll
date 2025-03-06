@@ -6073,7 +6073,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblbs_core.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libizat_core", "libloc_core", "libgps.utils", "libcrypto", "libsqlite", "libloc_api_v02", "libmdmdetect", "libperipheral_client", "libpdmapper", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblbs_core_shim", "liblog", "libutils", "libcutils", "libizat_core", "libloc_core", "libgps.utils", "libcrypto", "libsqlite", "libloc_api_v02", "libmdmdetect", "libperipheral_client", "libpdmapper", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6090,7 +6090,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
-			shared_libs: ["libutils", "libcutils", "libqmi_cci", "libqmi_common_so", "libloc_core", "libgps.utils", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libloc_api_shim", "libutils", "libcutils", "libqmi_cci", "libqmi_common_so", "libloc_core", "libgps.utils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6124,7 +6124,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblocationservice.so"],
-			shared_libs: ["libcutils", "liblog", "libloc_core", "libgps.utils", "liblbs_core", "libdataitems", "liblowi_client", "libizat_core", "liblocation_api", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblbs_core_shim", "libcutils", "liblog", "libloc_core", "libgps.utils", "liblbs_core", "libdataitems", "liblowi_client", "libizat_core", "liblocation_api", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
