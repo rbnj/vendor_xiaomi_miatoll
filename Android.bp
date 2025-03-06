@@ -10734,7 +10734,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/slim_daemon"],
-			shared_libs: ["libgps.utils", "liblog", "libdiag", "libqmi_csi", "libqmi_cci", "libqmi_common_so", "libqmi_encdec", "libutils", "libhidlbase", "libsensorndkbridge", "android.hardware.sensors@1.0", "android.frameworks.sensorservice@1.0", "libloc_api_v02", "libloc_core", "liblbs_core", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblbs_core_shim", "libgps.utils", "liblog", "libdiag", "libqmi_csi", "libqmi_cci", "libqmi_common_so", "libqmi_encdec", "libutils", "libhidlbase", "libsensorndkbridge", "android.hardware.sensors@1.0", "android.frameworks.sensorservice@1.0", "libloc_api_v02", "libloc_core", "liblbs_core", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
