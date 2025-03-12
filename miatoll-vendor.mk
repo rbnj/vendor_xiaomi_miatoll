@@ -875,6 +875,7 @@ PRODUCT_PACKAGES += \
     batterysecret \
     cdsprpcd \
     cnd \
+    cnss-daemon_miatoll \
     dpmQmiMgr \
     dspservice \
     embmsslServer \
