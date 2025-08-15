@@ -112,6 +112,15 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "vendor.qti.qspmhal-service.xml",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.qspmhal-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
 install_symlink {
 	name: "libEGL_adreno_libEGL_adreno_symlink32",
 	soc_specific: true,
